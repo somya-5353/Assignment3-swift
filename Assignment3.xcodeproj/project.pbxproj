@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EF4889A923DEC7A900D781F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4889A823DEC7A900D781F2 /* main.swift */; };
+		EF4889B023DECB6F00D781F2 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4889AF23DECB6F00D781F2 /* Node.swift */; };
+		EF4889B223DEDF8B00D781F2 /* DAG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4889B123DEDF8B00D781F2 /* DAG.swift */; };
+		EF4889B623DF0A9200D781F2 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4889B523DF0A9200D781F2 /* Operations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		EF4889A523DEC7A900D781F2 /* Assignment3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment3; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4889A823DEC7A900D781F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF4889AF23DECB6F00D781F2 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		EF4889B123DEDF8B00D781F2 /* DAG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAG.swift; sourceTree = "<group>"; };
+		EF4889B523DF0A9200D781F2 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				EF4889A823DEC7A900D781F2 /* main.swift */,
+				EF4889AF23DECB6F00D781F2 /* Node.swift */,
+				EF4889B123DEDF8B00D781F2 /* DAG.swift */,
+				EF4889B523DF0A9200D781F2 /* Operations.swift */,
 			);
 			path = Assignment3;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4889B223DEDF8B00D781F2 /* DAG.swift in Sources */,
 				EF4889A923DEC7A900D781F2 /* main.swift in Sources */,
+				EF4889B023DECB6F00D781F2 /* Node.swift in Sources */,
+				EF4889B623DF0A9200D781F2 /* Operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
